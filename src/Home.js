@@ -1,6 +1,6 @@
 import React from 'react'
-import classes from './Main.module.scss'
-import Navbar from './Navbar'
+import classes from './scss/Home.module.scss'
+import Navbar from './components/Navbar'
 
 export default function Main() {
     return (
