@@ -9,8 +9,8 @@ export default function BlogCard({value}) {
     return (
         <div className={classes.main}>
             <h2>{title}</h2>
-            <h6>{author}</h6>
             <p>{content}</p>
+            <h6>{author}</h6>
         </div>
     )
 }
